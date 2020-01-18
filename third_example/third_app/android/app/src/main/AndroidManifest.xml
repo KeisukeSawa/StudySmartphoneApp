@@ -1,0 +1,33 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.third_app">
+
+    <!-- 次の記述を追加する -->
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <!-- 英語のコメント -->
+    <application
+        android:name="io.flutter.app.FlutterApplication"
+        android:label="third_app"
+        android:icon="@mipmap/ic_launcher">
+        <activity
+            android:name=".MainActivity"
+            android:launchMode="singleTop"
+            android:theme="@style/LaunchTheme"
+            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+            android:hardwareAccelerated="true"
+            android:windowSoftInputMode="adjustResize">
+            <!-- 英語のコメント -->
+            <meta-data
+                android:name="io.flutter.app.android.SplashScreenUntilFirstFrame"
+                android:value="true" />
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <!-- 次の記述を追加する -->
+        <activity android:name="com.apptreesoftware.barcodescan.BarcodeScannerActivity"/>
+
+    </application>
+</manifest>
