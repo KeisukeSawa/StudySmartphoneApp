@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "141565838029",
+    "firebase_url": "https://fifth-app-18758.firebaseio.com",
+    "project_id": "fifth-app-18758",
+    "storage_bucket": "fifth-app-18758.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:141565838029:android:37ef6dae1a6f7230e31f84",
+        "android_client_info": {
+          "package_name": "com.example.fifth_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "141565838029-knc7f96n8gnajeg5q3mj72j0b0oc61mp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCjMxqI_CnJ9eiZrn2aIgu65VLPE2iu9jY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "141565838029-knc7f96n8gnajeg5q3mj72j0b0oc61mp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
